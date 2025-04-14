@@ -34,7 +34,7 @@ variable "unique_id" {
 ########################
 
 variable "aws_iam_role_id" {
-  type = list
+  type = string
 }
 
 variable "aws_iam_policy_attachment_name" {
