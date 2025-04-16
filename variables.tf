@@ -33,8 +33,8 @@ variable "unique_id" {
 ### Module variables ###
 ########################
 
-variable "aws_iam_role_id" {
-  type = string
+variable "aws_iam_role_ids" {
+  type = list(string)
 }
 
 variable "aws_iam_policy_attachment_name" {
